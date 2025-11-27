@@ -1,0 +1,436 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+ .nav-link {
+      color: white !important;
+      font-weight: 500;
+      margin: 0 8px;
+      font-size: 0.95rem;
+    }
+
+   .nav-link:hover {
+      color: #023535 !important;
+    }
+
+
+  
+
+    .sticky-container {
+        position: sticky;
+        top: 0;
+   
+        }
+        .sticky-wrapper {
+    position: sticky;
+    top: 0;
+}
+
+.sticky-wrapper img {
+    width: 100%;
+    height: auto;
+}
+        .col-8{
+            margin: 0px;
+            padding: 0px;
+        }
+
+ 
+div a{
+    text-decoration: none;
+    font-size: 23px;
+    color:black;
+    font-weight: 450;
+    
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.carousel img{
+    border-radius: 20px;
+    border: #00ac92 solid 6px;
+   
+}
+header a{
+    color:black;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0px;
+}
+footer a{
+    font-size: 14px;
+}
+.direitos{
+     background-color: #015958;
+      color: white;
+      text-align: center;
+      margin: 0px;
+      font-size: 14px;
+}
+.direitos a{
+    font-size: 15px;
+}
+dl{
+    font-size: 20px;
+}
+::-webkit-scrollbar{
+              
+               background-color: #00ac92;
+            }
+            ::-webkit-scrollbar-thumb{
+               background-color:#015958 ;
+            }
+
+
+
+.navbar{
+     background-color: #015958;
+     
+   }   
+   
+   .navega{
+  
+   font-weight: 600;
+   margin: 0px;
+   }
+
+    footer {
+      background-color: #015958;
+      color: white;
+      text-align: center;
+      padding: 8px; /* reduzido */
+      padding-bottom: 0px;
+      height: auto;
+      font-size: 0.9rem;
+      margin: 0px;
+    }
+
+    .mapa{
+    border: 5px solid #015958;
+    border-radius: 15px;
+}
+
+.texto
+{
+    display: flex;
+}
+.img
+{
+    width: 400px;
+    border: 5px solid #015958;
+    border-radius: 15px;
+}
+
+.text{
+    text-align: justify;
+    border: 5px solid #015958;
+    border-radius: 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-family: "Fascinate Inline", sans-serif;
+    font-size: 3rem;
+}
+
+    .card{
+
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+ 
+/* Deixa a borda mais bonita */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Efeito hover suave */
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+  transition: .2s;
+}
+
+
+/* Wrapper da imagem dentro dos cards */
+.card-img-wrap {
+    width: 100%;
+    height: 100%;
+    min-height: 220px; 
+    overflow: hidden; 
+}
+
+/* Imagem preenche totalmente */
+.card-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.avi{
+   font-family: "Fascinate Inline", sans-serif;
+   color: #015958;
+   margin: 30px;
+}
+
+
+/* Ícones dentro da seção de benefícios */
+.icone-beneficio {
+    width: 90px;
+    height: 90px;
+    background: rgba(0, 172, 146, 0.15); /* Verde claro translúcido */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    color: #015958; /* cor do ícone */
+    font-size: 40px;
+    transition: 0.25s ease;
+}
+
+/* Container do card de benefício */
+.benef-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+/* Hover igual ao dos cards */
+.benef-card:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.20);
+    transform: translateY(-3px);
+}
+
+/* Ícone */
+.icone-beneficio {
+    width: 90px;
+    height: 90px;
+    background: rgba(0, 172, 146, 0.15);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #015958;
+    font-size: 40px;
+    transition: 0.25s ease;
+    margin-bottom: 15px;
+}
+
+/* Ícone com hover */
+.benef-card:hover .icone-beneficio {
+    background: rgba(0, 172, 146, 0.25);
+}
+
+/* Título */
+.benef-titulo {
+    color: #023535;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+/* Texto */
+.benef-texto {
+    color: #015958;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .icone-beneficio {
+        width: 70px;
+        height: 70px;
+        font-size: 28px;
+    }
+}
+
+/* Título principal */
+.titulo-secao-principal {
+    font-size: 2.0rem;
+    font-weight: 800;
+    color: #023535;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.benef-premium {
+    background: #ffffff;
+    border-radius: 35px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#ffffff, #ffffff), 
+                      linear-gradient(135deg, #00ac92, #015958);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+/* HOVER COM SOMBRA LEVE */
+.benef-premium:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transform: translateY(-4px);
+}
+
+/* ÍCONE CIRCULAR */
+.icon-premium {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: rgba(0, 172, 146, 0.18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    color: #015958;
+    margin-bottom: 15px;
+    transition: 0.25s ease;
+}
+
+/* ÍCONE NO HOVER */
+.benef-premium:hover .icon-premium {
+    background: rgba(0, 172, 146, 0.28);
+    box-shadow: 0 0 12px rgba(0, 172, 146, 0.5);
+}
+
+/* TÍTULO DA CAIXINHA */
+.benef-premium-title {
+    color: #023535;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+/* TEXTO */
+.benef-premium-text {
+    color: #015958;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Ajuste no Mobile */
+@media (max-width: 768px) {
+    .icon-premium {
+        width: 60px;
+        height: 60px;
+        font-size: 26px;
+    }
+}
+
+
+/* Caixinha das tecnologias */
+.tec-card {
+    background: #ffffff;
+    border-radius: 18px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#ffffff, #ffffff),
+                      linear-gradient(135deg, #00ac92, #015958);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    transition: 0.2s;
+}
+
+/* Hover da tecnologia */
+.tec-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Vídeo estilizado */
+.tec-video {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Título */
+.tec-title {
+    font-weight: 700;
+    color: #023535;
+}
+
+/* Texto curto */
+.tec-text {
+    color: #015958;
+    font-size: 0.95rem;
+}
+
+/* Botão */
+.tec-btn {
+    background: #00ac92;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.tec-btn:hover {
+    background: #015958;
+    color: white;
+}
+
+/* Texto do collapse */
+.tec-collapse-text {
+    background: #e8fffa;
+    padding: 10px;
+    border-radius: 10px;
+    color: #023535;
+}
+
+/* FAQ gay */
+.faq-item {
+    border-radius: 15px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#ffffff, #ffffff),
+                      linear-gradient(135deg, #00ac92, #015958);
+    background-clip: padding-box, border-box;
+}
+
+.faq-btn {
+    background: #e8fff9;
+    color: #023535;
+    font-weight: 600;
+    border-radius: 0 !important;
+    padding: 15px;
+}
+
+.faq-btn:not(.collapsed) {
+    background: #00ac92;
+    color: white;
+}
+
+.faq-body {
+    background: #f3fffb;
+    color: #015958;
+    font-size: 0.95rem;
+    padding: 15px 20px;
+}
+
+/* Ícones do FAQ */
+.icon-faq {
+    font-size: 1.2rem;
+    color: #015958;
+    transition: 0.3s ease;
+}
+
+
+
+
