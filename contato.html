@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato | Energia Renovável & TI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="shortcut icon" href="Logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles2.css" type="text/css">
+</head>
+<body class="bg-light">
+ <div class="arruma">
+     <div class="navega row p-0">
+          <div class="esq col-2 order-0 p-0 ">
+                <div class="sticky-container sticky-wrapper">
+                    <img src="fundo3.jpg" class="imagem-sticky img-fluid" >
+                </div>
+          </div>
+          <div class="dir col-2 order-2 p-0">
+            <div class="sticky-container sticky-wrapper">
+                    <img src="fundo3.jpg" class="imagem-sticky img-fluid" >
+                </div>
+          </div>
+          <div class="conte col-8 order-1 p-0">
+   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+
+  <div class="container-fluid d-flex flex-column">
+
+    <!-- Marca em cima-->
+    <a class="navbar-brand  mx-auto mb-1" href="index.html"><i class="bi bi-leaf-fill me-1"></i>AgroTec</a>
+
+    <!-- Botão mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu dos links, to tentando fazer ser sticky -->
+     
+    <div class="collapse navbar-collapse w-100 " id="navbarMenu">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="manu2.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link " href="faq.html">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        <li class="nav-item"><a class="nav-link" href="ia.html">O que a IA acha sobre?</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre.html">Quem somos?</a></li>
+        <li class="nav-item"><a class="nav-link" href="novo.html">Tecnologias e o Meio Ambiente</a></li>
+      </ul>
+    </div>
+
+   </div>
+</nav>
+  </nav>
+
+  <!-- Formulário de Contato -->
+  <div class="container-fluid my-5">
+    <h2 class="text-center text-custom">Entre em Contato</h2>
+
+    <form class="bg-white p-4 rounded shadow-sm">
+      <!-- Dados pessoais -->
+      <fieldset class="mb-4">
+        <legend class="fw-bold">Seus dados</legend>
+        <div class="row g-3">
+          <div class="col-12 col-md-6">
+            <label class="form-label">Nome completo*</label>
+            <input type="text" class="form-control" required>
+          </div>
+          <div class="col-12 col-md-6">
+            <label class="form-label">E-mail*</label>
+            <input type="email" class="form-control" required>
+          </div>
+        </div>
+        <div class="row g-3 mt-1">
+          <div class="col-12 col-md-6">
+            <label class="form-label">Telefone</label>
+            <input type="text" class="form-control" placeholder="(XX) XXXXX-XXXX">
+          </div>
+          <div class="col-12 col-md-6">
+            <label class="form-label">Cidade</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-12 col-md-6">
+            <label class="form-label">Estado*</label>
+            <select class="form-select" required>
+            <option value="">Selecione</option>
+            <option value="AC">Acre (AC)</option>
+            <option value="AL">Alagoas (AL)</option>
+            <option value="AP">Amapá (AP)</option>
+            <option value="AM">Amazonas (AM)</option>
+            <option value="BA">Bahia (BA)</option>
+            <option value="CE">Ceará (CE)</option>
+            <option value="DF">Distrito Federal (DF)</option>
+            <option value="ES">Espírito Santo (ES)</option>
+            <option value="GO">Goiás (GO)</option>
+            <option value="MA">Maranhão (MA)</option>
+            <option value="MT">Mato Grosso (MT)</option>
+            <option value="MS">Mato Grosso do Sul (MS)</option>
+            <option value="MG">Minas Gerais (MG)</option>
+            <option value="PA">Pará (PA)</option>
+            <option value="PB">Paraíba (PB)</option>
+            <option value="PR">Paraná (PR)</option>
+            <option value="PE">Pernambuco (PE)</option>
+            <option value="PI">Piauí (PI)</option>
+            <option value="RJ">Rio de Janeiro (RJ)</option>
+            <option value="RN">Rio Grande do Norte (RN)</option>
+            <option value="RS">Rio Grande do Sul (RS)</option>
+            <option value="RO">Rondônia (RO)</option>
+            <option value="RR">Roraima (RR)</option>
+            <option value="SC">Santa Catarina (SC)</option>
+            <option value="SP">São Paulo (SP)</option>
+            <option value="SE">Sergipe (SE)</option>
+            <option value="TO">Tocantins (TO)</option>
+              
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Assunto -->
+      <fieldset class="mb-4">
+        <legend class="fw-bold">Mensagem</legend>
+        <div class="mb-3">
+          <label class="form-label">Assunto*</label>
+          <select class="form-select" required>
+            <option value="">Selecione</option>
+            <option value="inicio">Início</option>
+            <option value="faq">FAQ</option>
+            <option value="ia">O que a IA acha sobre</option>
+            <option value="nos">Sobre nós</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Mensagem*</label>
+          <textarea class="form-control" rows="4" required></textarea>
+        </div>
+      </fieldset>
+
+      <!-- Preferências -->
+      <fieldset class="mb-4">
+        <legend class="fw-bold">Procuro:</legend>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="monitoramento">
+          <label class="form-check-label" for="Parcerias">Parcerias com produtores, cooperativas e empresas do agro</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="plataformas">
+          <label class="form-check-label" for="Projetos">Projetos de sustentabilidade e inovação tecnológica no campo</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="satelites">
+          <label class="form-check-label" for="Consultorias">Consultorias em agricultura de precisão, IoT e monitoramento remoto</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="satelites">
+          <label class="form-check-label" for="treinamentos">Palestras, treinamentos e workshops</label>
+        </div>
+      </fieldset>
+
+      <!-- Upload -->
+      <fieldset class="mb-4">
+        <legend class="fw-bold">Arquivos</legend>
+        <input type="file" class="form-control mb-3">
+        <button type="submit" class="btn btn-verdinho">Enviar</button>
+        <button type="reset" class="btn btn-outline-dark">Limpar</button>
+      </fieldset>
+    </form>
+
+    <div class="mt-5 text-center">
+      <p><strong>Nossa Localização:</strong><br>
+        Rua Maria Cristina, 50 - Jardim Casqueiro, Cubatão/SP<br>
+        CEP: 11533-160
+      </p>
+        <a href="https://www.google.com/maps/dir//R.+Maria+Cristina,+50+-+Casqueiro,+Cubat%C3%A3o+-+SP,+11533-160/"><img src="mapa.png" alt="mapa ampliado" class="mapa img-fluid"></a> 
+            </div>
+     
+  </div>
+  <!-- Rodapé -->
+  <footer class="p-4 text-light text-center mt-3 sticky-bottom">
+        Este site foi criado para apresentar os conceitos e benefícios da agricultura digital sustentável uma forma inovadora de produzir alimentos com esponsabilidade ambiental, ficiência e uso inteligente de tecnologias.
+        <br>
+         © 2025 Agricultura digital sustentável | Inspirado em <a href="https://getbootstrap.com/" class="text-white fw-bold">Bootstraps
+    </footer>
+</html>
